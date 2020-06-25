@@ -1,0 +1,32 @@
+.jumbotron-content {
+    font-family: courier, arial, helvetica;
+    font-size: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#feeling {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#btn1 {
+    background-color: #ffca28;
+    font-family: Impact, Charcoal, sans-serif;
+    width: 100px;
+    opacity: 0.5;
+}
+
+#btn1:hover {
+    opacity: 1.0;
+}
+
+#btn2 {
+    width: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #0277bd;
+    opacity: 0.5;
+}
+
+#btn2:hover {
+    opacity: 1.0;
+}
