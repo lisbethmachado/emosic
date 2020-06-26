@@ -1,7 +1,7 @@
 
 // function handleSearch() {
     $("#btn2").on("click", function(){
-
+        console.log("btn2")
    
     var sad = "linkin-park"
     var apiKey = "376609-emosic-T64LATMW";
