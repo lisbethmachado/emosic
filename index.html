@@ -2,55 +2,71 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EMOSIC</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMOSIC</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
 
-
-
-
     <div class="col s12 m7">
-        <div class="card horizontal">
+        <div class="card horizontal" style="margin-top: 0px">
             <div class="card-image">
-                <img src="https://lorempixel.com/100/190/nature/6">
+                <img src="assets/images/happy_face.jpg">
             </div>
-            <div class="card-stacked teal">
+            <div class="card-stacked red lighten-1">
                 <div class="card-content center-align jumbotron-content">
                     <p class="p">EMOSIC</p>
                 </div>
-                <span class="card-action center-align">Where emotions meet music</span>
+
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-          <div class="col">
-            <h4 class="row heading">Hello moody music lover,</h4>
-            <p class="row aboutBlock">Welcome to EMOSIC. Emosic is an music app where you can find suggestions for music
-              depending on your present mood. You could select songs from the list of suggestions and enjoy listerning to it.</p>
-          </div>
+            <div class="col">
+                <h4 class="row heading">Hello moody music lover,</h4>
+                <p class="row aboutBlock">Welcome to EMOSIC. Emosic is an music app, where emotions meet music. You can
+                    find suggestions for music
+                    depending on your present mood. You could select songs from the list of suggestions and enjoy
+                    listerning to it.</p>
+            </div>
+        </div>
             <div class="row">
 
                 <h3 class="col s9" id="feeling">How are you feeling today?</h3>
 
-                <div class="row center-align">
+                </div>
+                <div class="row">
+                     <div class="col center-align">
                     <a class="waves-effect waves-light btn-large" id="btn1">Happy</a>
                     <a class="waves-effect waves-light btn-large" id="btn2">Sad</a>
                 </div>
+                </div>
+               
+      
+        <div id="suggestions" class="row hide">
+            <div class="col">
+                <div class="row">
+                    <h1 class="col" id="empty"></h1>
+                </div>
+                <div class="row">
+                    <p class="col" id="teaser"></p>
+                </div>
+                <div class="row">
+                    <p class="col" id="wiki"></p>
+                </div>
+                <div class="row">
+                    <p class="col" id="youtube"></p>
+                </div>
+
             </div>
         </div>
 
 
-        <h1 id="empty"></h1>
-        <p id="teaser"></p>
-        <p id="wiki"></p>
-        <p id="youtube"></p>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
