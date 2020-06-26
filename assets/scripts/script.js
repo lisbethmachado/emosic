@@ -1,7 +1,7 @@
 // When the user presses the happy button
 //then t
 $("#btn1").on("click", function(){
-
+$("#suggestions").removeClass("hide");
 $.ajax({
     url: "https://cors-anywhere.herokuapp.com/https://tastedive.com/api/similar?q=SZA&k=376608-SaraRose-3R6F0LXH&verbose=1",
     method: "GET",
