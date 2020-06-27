@@ -5,18 +5,17 @@ padding-top: 0px;
 padding-bottom: 0px;
 }
 
-span{
-    font-style: italic ;
-}
 .aboutBlock{
 font-family: courier,arial,helvetica;
-font-size: 25px;
+font-size: 35px;
 font-weight: bold;
-color: darkred;
+color:black;
 }
 
 .p{
       font-weight: bolder;
+      color: ivory;
+      font-style: italic;
 }
 
 .heading
@@ -24,22 +23,27 @@ color: darkred;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-style: italic ;
-color: maroon;
+color:black;
+font-size: 50px;
 }
 
 body{
-    background-image: url("https://images.squarespace-cdn.com/content/v1/54d2568fe4b0a766c32c59ea/1454103335460-ZUMDA6JJK0SC86H3BMJS/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/Feb32016-Music-evoked+Emotions+Influence+Cognition.jpg");
+    
+    background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg");
     background-size: cover;
 }
 #feeling {
     font-family: "Arial Black", Gadget, sans-serif;
+  
 }
 
 #btn1 {
     background-color: #ffca28;
     font-family: Impact, Charcoal, sans-serif;
     width: 100px;
-    opacity: 0.5;
+    opacity: 0.7;
+    width: 200px;
+    font-size: 30px;
 }
 
 #btn1:hover {
@@ -47,10 +51,11 @@ body{
 }
 
 #btn2 {
-    width: 100px;
+    font-size: 30px;
     font-family: Impact, Charcoal, sans-serif;
     background-color: #0277bd;
-    opacity: 0.5;
+    opacity:0.7;
+    width: 200px;
 }
 
 #btn2:hover {
@@ -63,4 +68,18 @@ body{
 
 #suggestions{
     background-color: antiquewhite;
+}
+
+@media (max-width: 1761px) {
+
+    .col.s9 {
+        color: lightyellow;
+     }
+    }
+
+@media (max-width: 800px) {
+
+    .color-sm {
+        color:lightyellow;
+     }
 }

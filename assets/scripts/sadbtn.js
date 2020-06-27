@@ -1,5 +1,6 @@
 $(function () {
     $("#btn2").on("click", function () {
+        $("#suggestions").removeClass("hide");
         console.log("btn2")
 
         var sad = "linkin-park"
