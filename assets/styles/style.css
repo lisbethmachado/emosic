@@ -61,7 +61,12 @@ body{
 #btn2:hover {
     opacity: 1.0;
 }
-
+.center-this{
+    text-align: center;
+}
+#artistwell{
+    text-align: center;
+}
 .hide{
     display: none;
 }
