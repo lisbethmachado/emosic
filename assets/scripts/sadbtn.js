@@ -1,5 +1,5 @@
-$(function () {
-    $("#btn2").on("click", function () {
+$(function() {
+    $("#btn2").on("click", function() {
 
         var sad = "linkin-park"
         var apiKey = "376609-emosic-T64LATMW";
@@ -9,7 +9,7 @@ $(function () {
         $.ajax({
             url: queryURL,
             method: "GET",
-        }).then(function (response) {
+        }).then(function(response) {
             $("#suggestions").removeClass("hide");
             $("#artistwell").empty();
             // var artist = response.Similar.Info[0]
@@ -51,8 +51,8 @@ $(function () {
     });
 })
 
-$(function () {
-    $("#btn3").on("click", function () {
+$(function() {
+    $("#btn3").on("click", function() {
 
         var mad = "slayer"
         var apiKey = "376609-emosic-T64LATMW";
@@ -62,7 +62,7 @@ $(function () {
         $.ajax({
             url: queryURL,
             method: "GET",
-        }).then(function (response) {
+        }).then(function(response) {
             $("#suggestions").removeClass("hide");
             $("#artistwell").empty();
             // var artist = response.Similar.Info[0]
