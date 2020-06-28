@@ -75,6 +75,12 @@ body{
 }
 /* end mad button edits */
 
+.center-this{
+    text-align: center;
+}
+#artistwell{
+    text-align: center;
+}
 .hide{
     display: none;
 }
