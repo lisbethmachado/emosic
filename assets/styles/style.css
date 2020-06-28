@@ -5,6 +5,34 @@
     padding-bottom: 0px;
 }
 
+.aboutBlock {
+    font-family: courier, arial, helvetica;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.p {
+    font-weight: bolder;
+    color: ivory;
+    font-style: italic;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size: 50px;
+}
+
+body {
+    background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #feeling {
     font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -13,7 +41,9 @@
     background-color: #ffca28;
     font-family: Impact, Charcoal, sans-serif;
     width: 100px;
-    opacity: 0.5;
+    opacity: 0.7;
+    width: 200px;
+    font-size: 30px;
 }
 
 #btn1:hover {
@@ -21,12 +51,41 @@
 }
 
 #btn2 {
-    width: 100px;
+    font-size: 30px;
     font-family: Impact, Charcoal, sans-serif;
     background-color: #0277bd;
-    opacity: 0.5;
+    opacity: 0.7;
+    width: 200px;
 }
 
 #btn2:hover {
     opacity: 1.0;
+}
+
+.center-this {
+    text-align: center;
+}
+
+#artistwell {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+#suggestions {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 1761px) {
+    .col.s9 {
+        color: lightyellow;
+    }
+}
+
+@media (max-width: 800px) {
+    .color-sm {
+        color: lightyellow;
+    }
 }
