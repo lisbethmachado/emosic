@@ -48,6 +48,7 @@ $(function() {
             }
 
         });
+        $('.scrollspy').scrollSpy();
     });
 })
 
@@ -100,5 +101,6 @@ $(function() {
             }
 
         });
+        $('.scrollspy').scrollSpy();
     });
 })

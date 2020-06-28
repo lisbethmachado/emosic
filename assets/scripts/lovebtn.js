@@ -48,6 +48,7 @@ $(function() {
             }
 
         });
+        $('.scrollspy').scrollSpy();
     });
 })
 
