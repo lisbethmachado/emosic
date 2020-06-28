@@ -33,6 +33,33 @@ body {
     background-position: center;
 }
 
+.aboutBlock {
+    font-family: courier, arial, helvetica;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* .p {
+    font-weight: bolder;
+    color: ivory;
+    font-style: italic;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size: 50px;
+}
+
+body {
+    background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg");
+    background-size: cover;
+} */
+
 #feeling {
     font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -61,6 +88,24 @@ body {
 #btn2:hover {
     opacity: 1.0;
 }
+
+
+/* mad button styles */
+
+#btn3 {
+    font-size: 30px;
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #f44336;
+    opacity: 0.7;
+    width: 200px;
+}
+
+#btn3:hover {
+    opacity: 1.0;
+}
+
+
+/* end mad button edits */
 
 .center-this {
     text-align: center;
