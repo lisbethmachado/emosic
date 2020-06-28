@@ -8,6 +8,7 @@ $(function (){
         method: "GET",
     }).then(function (response) {
          $("#suggestions").removeClass("hide");
+         $("#artistwell").empty();
         var SZA = response.Similar.Info[0]
         
 
