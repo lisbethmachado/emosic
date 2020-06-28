@@ -33,6 +33,8 @@ body {
     background-position: center;
 }
 
+
+/* 
 .aboutBlock {
     font-family: courier, arial, helvetica;
     font-size: 35px;
@@ -40,8 +42,7 @@ body {
     color: black;
 }
 
-
-/* .p {
+.p {
     font-weight: bolder;
     color: ivory;
     font-style: italic;
