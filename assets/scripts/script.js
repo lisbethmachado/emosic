@@ -11,19 +11,11 @@ $(function() {
             $("#artistwell").empty();
             var SZA = response.Similar.Info[0]
 
-
-
-
-
             // function to render multiple artists
             for (var i = 0; i < 6; i++) {
-                console.log(i)
+
                 var Artists = (response.Similar.Results[i])
 
-                console.log(Artists)
-
-
-                // $('#artistwell').append(artistwell);
                 $("#artistwell").append("<h1 >" + Artists.Name + "</h1>");
                 $("#artistwell").append("<p>" + Artists.wTeaser + "</p>");
                 $("#artistwell").append("<a href='" + Artists.wUrl + "'>" + Artists.wUrl + "</a>");
@@ -34,14 +26,7 @@ $(function() {
 
                 if (i > 6) {
                     $("#artistwell").empty();
-
-
                 }
-
-
-
-
-
             }
         });
     });
