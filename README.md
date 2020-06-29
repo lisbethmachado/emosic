@@ -13,9 +13,9 @@ Git is used for version controlling and for periodic commits to Gitlab.
 
 
 ## User Stroy
-AS a moody music lover,
-I WANT an application that provides me with music suggestions based on my mood.
-SO THAT I can better relate to my music choices.
+AS a moody music lover,<br>
+I WANT an application that provides me with music suggestions based on my mood.<br>
+SO THAT I can better relate to my music choices.<br>
 
 
 ## Deployed Application URL
