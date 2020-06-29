@@ -9,7 +9,7 @@
     font-family: courier, arial, helvetica;
     font-size: 45px;
     font-weight: bold;
-    color: red;
+    color: crimson;
 }
 
 .p {
@@ -22,7 +22,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: red;
+    color: crimson;
     font-size: 50px;
 }
 
@@ -31,6 +31,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    backdrop-filter: blur(5px);
 }
 
 #feeling {
@@ -127,6 +128,7 @@ body {
     background-color: antiquewhite;
 }
 
+
 /*@media (max-width: 1761px) {
     .col.s9 {
         color: lightyellow;
@@ -135,7 +137,7 @@ body {
 
 @media (max-width: 768px) {
     .color-sm {
-       color: lightyellow;;
+        color: crimson;
     }
 }
 
