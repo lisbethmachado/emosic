@@ -12,21 +12,11 @@ $(function() {
         }).then(function(response) {
             $("#suggestions").removeClass("hide");
             $("#artistwell").empty();
-            // var artist = response.Similar.Info[0]
-            // $("#empty").text(artist.Name)
-            // $("#teaser").text(artist.wTeaser)
-            // $("#youtube").empty();
-            // $("#wiki").empty();
-            // $("#wiki").append('<a href="' + artist.wUrl + '">' + artist.wUrl + '</a>')
-            // $("#youtube").append('<a href="' + artist.yUrl + '">' + artist.yUrl + '</a>')
-
 
             for (var i = 0; i < 6; i++) {
-                console.log(i)
+
                 var Artists = (response.Similar.Results[i])
 
-
-                // $('#artistwell').append(artistwell);
                 $("#artistwell").append("<h1 >" + Artists.Name + "</h1>");
                 $("#artistwell").append("<p>" + Artists.wTeaser + "</p>");
                 $("#artistwell").append("<a href='" + Artists.wUrl + "'>" + Artists.wUrl + "</a>");
@@ -37,18 +27,9 @@ $(function() {
 
                 if (i > 6) {
                     $("#artistwell").empty();
-
-
                 }
-
-
-
-
-
             }
-
         });
-        $('.scrollspy').scrollSpy();
     });
 })
 
@@ -66,20 +47,11 @@ $(function() {
         }).then(function(response) {
             $("#suggestions").removeClass("hide");
             $("#artistwell").empty();
-            // var artist = response.Similar.Info[0]
-            // $("#empty").text(artist.Name)
-            // $("#teaser").text(artist.wTeaser)
-            // $("#youtube").empty();
-            // $("#wiki").empty();
-            // $("#wiki").append('<a href="' + artist.wUrl + '">' + artist.wUrl + '</a>')
-            // $("#youtube").append('<a href="' + artist.yUrl + '">' + artist.yUrl + '</a>')
 
             for (var i = 0; i < 6; i++) {
-                console.log(i)
+
                 var Artists = (response.Similar.Results[i])
 
-
-                // $('#artistwell').append(artistwell);
                 $("#artistwell").append("<h1 >" + Artists.Name + "</h1>");
                 $("#artistwell").append("<p>" + Artists.wTeaser + "</p>");
                 $("#artistwell").append("<a href='" + Artists.wUrl + "'>" + Artists.wUrl + "</a>");
@@ -90,17 +62,8 @@ $(function() {
 
                 if (i > 6) {
                     $("#artistwell").empty();
-
-
                 }
-
-
-
-
-
             }
-
         });
-        $('.scrollspy').scrollSpy();
     });
 })
