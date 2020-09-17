@@ -19,7 +19,7 @@ SO THAT I can better relate to my music choices.<br>
 
 
 ## Deployed Application URL
-https://lisbethmachado.github.io/project-1/
+https://lisbethmachado.github.io/emosic/
 
 
 ## Screenshots of the application
